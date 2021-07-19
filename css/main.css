@@ -1,0 +1,103 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    background-color: #EAEFF8;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.head {
+    align-self: center;
+}
+
+.head p {
+    text-align: center;
+    color: #142747;
+    font-weight: 800;
+    font-size: 3em;
+    margin: 0;
+    padding: .5rem;
+}
+
+.head img {
+    width: 100px;
+    padding: .5rem;
+}
+
+.sub-section {
+    background-color: #EAEFF8;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.box-section {
+    background-color: #F4F8FF;
+    padding: 1rem .5rem .5rem .5rem;
+    border-radius: .5rem;
+}
+
+.box-section .col {
+    padding: .5rem;
+}
+
+span {
+    color: #142747;
+}
+
+.box-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.box-btn-r {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+}
+
+.fade-in {
+    animation: fade-in .5s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-out {
+    animation: fade-out .5s;
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.spin {
+    color: #fff;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    border-width: .2em;
+}
+
+.fail {
+    border-color: red !important;
+}
+
+.custom-file-label {
+    overflow: hidden;
+    white-space: nowrap;
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+thead>tr>th {
+    text-align: center;
+    font-weight: 600;
+}
+
+.table td,
+.table th {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #056BB3;
+    border-color: #0561a3;
+}
+
+h1 {
+    color: #056BB3;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
